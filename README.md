@@ -26,7 +26,7 @@ Raw dataset consists of 3 data tables:
 **A. _Table Orders_: Primary key - Order ID & Order Date & Customer ID**
 - **Order ID**: mã ID đơn hàng
   
-_**NOTE**: Mã này có thể bị trùng lặp. Mỗi dòng trong dữ liệu đại diện cho một sản phẩm trong đơn hàng, nghĩa là nếu một đơn hàng có nhiều sản phẩm, mã đơn hàng đó sẽ xuất hiện nhiều lần_
+    _**NOTE**: Mã này có thể bị trùng lặp. Mỗi dòng trong dữ liệu đại diện cho một sản phẩm trong đơn hàng, nghĩa là nếu một đơn hàng có nhiều sản phẩm, mã đơn hàng đó sẽ xuất hiện nhiều lần_
 
 - **Order Date**: ngày xuất đơn hàng. MM/DD/YYYY
 - **Ship Date**: ngày vận chuyển đơn hàng. MM/DD/YYYY
@@ -35,7 +35,7 @@ _**NOTE**: Mã này có thể bị trùng lặp. Mỗi dòng trong dữ liệu �
 - **Customer Name**: tên khách hàng
 - **Segment**: loại khách hàng. Có 3 loại: Consumer - KH cá nhân; Corporate - doanh nghiệp; Home Office - freelancer/doanh nhân cá nhân/công ty nhỏ
 
-_**NOTE**: Phân biệt Segment này với RFM segment_
+    _**NOTE**: Phân biệt Segment này với RFM segment_
 
 -  **City**: thành phố của địa chỉ giao hàng
 -  **State**: bang của địa chỉ giao hàng
@@ -123,7 +123,7 @@ Tổng số lượng khách hàng qua thời gian (**_Total customer Over Time_*
 
 Tỷ lệ giữ chân khách hàng qua từng năm (**_Active & New Customer (YoY)_**)
 
-_**NOTE**: Đã xác định cách phân loại customer type ở trên_
+    _**NOTE**: Đã xác định cách phân loại customer type ở trên_
 
 RFM segment được xét theo 4 khía cạnh:
 - Theo đóng góp doanh thu, lợi nhuận (**_Revenue & Profit & Number by Segment_**)
@@ -136,7 +136,7 @@ Nơi ở của nhóm khách hàng (Country - city)
 
 Cơ cấu segment trong nhóm (**_Num of Customer by Segment_**) và tỷ lệ đóng góp doanh thu (**_Revenue by Segment_**)
 
-_**NOTE**: Phân biệt Segment này với RFM segment_
+    _**NOTE**: Phân biệt Segment này với RFM segment_
 
 Xét về category:
 - Số lượng category được bán ra (**_Total Product Sold of Category by Time_**) nhằm nắm được loại category KH thường mua
@@ -148,7 +148,7 @@ Xét về AOV (**_AOV by Time_**) (chi tiêu trung bình trên 1 đơn hàng) đ
 - Doanh thu & lợi nhuận qua thời gian (**_Revenue & Transactions by Time_**)
 - Tỷ trọng sản phẩm bán ra trong tháng (**_Num of Product Sold by Category_**)
 
-_**NOTE**: thông thường AOV thấp là do: 1. KH chi tiêu ít đi trong 1 đơn hàng hoặc 2. số lượng đơn giảm khiến doanh số sụt giảm, mức chi tiêu vẫn như cũ hoặc 3. tỷ trọng mặt hàng technology & furrniture bán ra giảm đột biến khiến doanh thu giảm sút (mặt hàng technology & furniture đóng góp gần 80% doanh thu trong 1 đơn hàng (**_Revenue of Cateogry per Transaction_**))_
+    _**NOTE**: thông thường AOV thấp là do: 1. KH chi tiêu ít đi trong 1 đơn hàng hoặc 2. số lượng đơn giảm khiến doanh số sụt giảm, mức chi tiêu vẫn như cũ hoặc 3. tỷ trọng mặt hàng technology & furrniture bán ra giảm đột biến khiến doanh thu giảm sút (mặt hàng technology & furniture đóng góp gần 80% doanh thu trong 1 đơn hàng (**_Revenue of Cateogry per Transaction_**))_
 
 Xét về Ship Mode (**_% Transaction with Ship Mode_**) và xét Ship Mode theo từng category (**_Ship Mode by Category_**) để nắm được loại hình vận chuyển thường dùng cho từng category
 
