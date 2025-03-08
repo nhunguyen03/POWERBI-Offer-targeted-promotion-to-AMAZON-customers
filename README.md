@@ -3,6 +3,8 @@
 ### 1. About project
 This project uses **hypothetical data from AMAZON Global Superstore Sales** from 2011 to 2014, covering transactions on the AMAZON e-commerce platform, focusing on analyzing AMAZON's customers and answering the question: **"How to offer targeted promotion to right customers?"**
 
+![image](https://github.com/user-attachments/assets/96db8b72-9a1e-4efb-9335-e28cf37d9d15)
+
 This project emphasizes data processing and visualization **using PBI**
 
 **The analysis results provide insights into:**
